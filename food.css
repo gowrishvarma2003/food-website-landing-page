@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@200;300;400;500;600&family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;   
+}
+
+.logo_div{
+    background-color: white;
+    width: 180px;
+    height: 80px;
+}
+
+.logo{
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    left: 20px;
+    color: rgb(220, 55, 83);
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align:left;
+    position: relative;
+    top: -50px;
+    left: 300px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    color: #ff5ea2;
+} 
+
+#num{
+    color: #ff5ea2;
+}
+
+.bag{
+    width: 25px;
+}
+
+.nav_fir{
+    margin-top: -22px;
+}
+
+.navbar_Sec{
+    text-align: right;
+    position: relative;
+    top: 0px;
+    left: -300px;
+}
+
+#button{
+    margin-left: 50px;
+    background-color: #fa0b4b;;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    top: -5px;
+}
+
+nav ul li a{
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.part_2{
+    margin: 0px 0px 0px 80px ;
+    font-family: 'Rubik', sans-serif;
+}
+
+.one{
+    padding: 10px;
+}
+
+.two{
+    font-size: 50px;
+}
+
+.three{
+    font-size: 50px;
+}
+
+.search_space{
+    padding: 20px 270px 20px 20px;
+    border-radius: 30px;
+    /* position: relative; */
+    /* top: 40px; */
+    margin-top: 40px;
+    color: white;
+    border-color: white;
+    border: none;
+}
+
+.search{
+    display: flex;
+}
+
+.ok{
+    position: relative;
+    top: 50px;
+    left: -100px;
+    background-color: #fa0b4b;
+    margin-left: 5px;
+    margin-top: -3px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #FFF;
+}
+
+
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+
+      .swiper-slide {
+        /* text-align: center; */
+        font-size: 18px;
+        height: 230px;
+        width: 300px !important;
+        border-radius: 10px !important;
+        margin-top: 80px;
+        margin-left: 100px;
+        margin-right: 0px !important ;
+        /* padding: 0px 200px; */
+     
+
+        /* Center slide text vertically
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; */
+      }
+
+      .swiper-slide img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+      }
+     
+.swiper{
+    width: 60%;
+    /* height: 400px; */
+    margin-top: 40px 0 0 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    /* margin: 50px 0px 0px 10px; */
+}
+
+.privacy{
+    position: relative;
+    top: -50px;
+    margin: -100px 50px 0px 1000px;
+    background-color: #FFF;
+    padding: 50px;
+}
+
+.line_1{
+    padding: 0px 0px 15px 0px;
+}
+
+.line_2{
+    padding: 0px 0px 15apx 0px;
+}
+
+.line_3{
+    color: #ff5ea2;
+}
+
+.pizza{
+    color: black ;
+    font-size: 20px;
+    position: relative;
+    top: -55px;
+    margin-left: 20px;
+    background-color: #FFF;
+    margin-right: 20px;
+    padding: 8px 0px 8px 30px;
+    border-radius: 2px;
+}
+.dosa{
+    color: black ;
+    font-size: 20px;
+    position: relative;
+    top: -55px;
+    margin-left: 20px;
+    background-color: #FFF;
+    margin-right: 20px;
+    padding: 8px 0px 8px 30px;
+    border-radius: 2px;
+}
+.capathi{
+    color: black ;
+    font-size: 20px;
+    position: relative;
+    top: -55px;
+    margin-left: 20px;
+    background-color: #FFF;
+    margin-right: 20px;
+    padding: 8px 0px 8px 30px;
+    border-radius: 2px;
+}
+.burger{
+    color: black ;
+    font-size: 20px;
+    position: relative;
+    top: -55px;
+    margin-left: 20px;
+    background-color: #FFF;
+    margin-right: 20px;
+    padding: 8px 0px 8px 30px;
+    border-radius: 2px;
+}
+
+.menu{
+    display: none;
+}
+
+
+@media only screen and (max-width:700px){
+
+    .navbar li{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        width: 30px;
+        margin-left: 500px;
+        margin-top: -35px !important;
+    }
+
+    .bag{
+        margin-top: 15px;
+        margin-right: 80px;
+        width: 35px;
+    }
+
+    .part_2{
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    .one{
+        font-size: 15px;
+    }
+    .two{
+        font-size: 40px;
+    }
+    .three{
+        font-size: 40px;
+        margin-top: 20px5;
+    }
+
+    .swiper{
+        width: 100%;
+    }
+
+    .navbar .nav{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .nav_fir{
+        margin-top: 40px;
+        margin-left: 100px;
+        border-left: 100%;
+    }
+
+}

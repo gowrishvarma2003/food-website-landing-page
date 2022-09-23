@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="food.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="navbar">
+            <div class="logo_div">
+                <h2 class="logo">yummy.</h2>    
+            </div>
+            <nav>
+                <ul class="navbar">
+                  <ul class="navbar_Sec">
+                    <li><a href="">Account</a></li>
+                    <img class="bag" src="images/bag.png" alt="">
+                    <img class="menu" id="menu_icon" src="images/menu.png" alt="" onclick="togglemenu()">
+                    <li><a id="button" href="">Confirm Order</a></li>
+                  </ul>
+  
+  
+                      <ul class="nav_fir" id="menulist">
+                        <li class="nav"><a href="">Find food</a></li>
+                        <li class="nav"><a href="">Categories</a></li>
+                        <li class="nav"><a href="">Restaurants</a></li>
+                        <li class="nav"><a href="">About us</a></li>
+                        <li class="nav"><a  id="num" href="">+1-202-555-0104</a></li>
+                      </ul>
+                </ul>
+
+            </nav>
+        </div>
+
+        <div class="part_2">
+            <h4 class="one">Washington</h4>
+            <h1 class="two">Discover restaurants</h1>
+            <h1 class="three">that delevers near you</h1>
+
+            <div class="search">
+                <input class="search_space" type="text" placeholder="Enter your delivery adress">
+                <h1 class="ok">ok</h1>
+            </div>
+        </div>
+        
+        <div class="swiper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide" ><img class="piza" src="images/piza.jpeg"  alt=""><h1 class="pizza">Pizza</h1></div>
+                  <div class="swiper-slide"><img src="images/dosa.jpg" alt=""><h1 class="dosa">Dosa</h1></div>
+                  <div class="swiper-slide"><img src="images/burger.jpeg" alt=""><h1 class="burger">Burger</h1></div>
+                  <div class="swiper-slide"><img src="images/capathi.jpg" alt=""><h1 class="capathi">capathi</h1></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+
+                </div>
+               
+              </div>
+        </div>
+
+        <div class="privacy">
+            <h4 class="line_1">What about privacy policy?</h4>
+            <p class="line_2">Lorem ipsum dolor sit amet consectetur adipisicing elit <br> Quasi vel voluptates distinctio! Sint <br></p>
+            <h4 class="line_3">See more</h4>
+        </div>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          },
+        });
+
+        var menulist=document.getElementById("menulist");
+
+        menulist.style.maxHeight=="0px"
+
+        function togglemenu(){
+
+          document.getElementById("menulist").style.display = "none";
+
+            if(menulist.style.maxHeight=="0px")
+            {
+                menulist.style.maxHeight="130px"
+                document.getElementById("menulist").style.display = "block";
+            }
+
+            else
+            {
+                menulist.style.maxHeight="0px";
+                document.getElementById("menulist").style.display = "none";
+            }
+        }
+
+      </script>
+
+
+
+</html>
